@@ -18,3 +18,4 @@ tip, media, tags
 "^foo^bar - run the last command, but replace the first instance of foo with bar",,BASH
 "#! - it's pronounced 'shebang'",https://en.wikipedia.org/wiki/Shebang_(Unix),UNIX
 "Do you always type 'sl' instead of 'ls'? This will be fun: sudo apt-get install sl",,
+"A long time ago in a galaxy far, far away: telnet towel.blinkenlights.nl",,BASH
