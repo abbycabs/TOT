@@ -18,7 +18,7 @@ tip, media, tags
 "^foo^bar - run the last command, but replace the first instance of foo with bar",,BASH
 "#! - it's pronounced 'shebang'",https://en.wikipedia.org/wiki/Shebang_(Unix),UNIX
 "Do you always type 'sl' instead of 'ls'? This will be fun: sudo apt-get install sl",,
-"split FASTQ file into 5 files to parallelize in the cluster" "awk 'NR%4==1{ f=(FILENAME)"."(++i%5); }{ print >> f }' <fastq>",,
+"split FASTQ file into 5 files to parallelize in the cluster. awk 'NR%4==1{ f=(FILENAME)"".""(++i%5); }{ print >> f }' <fastq>",,
 "A long time ago in a galaxy far, far away: telnet towel.blinkenlights.nl",,BASH
 "Split multi-FASTA file to indiv FASTA files: awk '/^>/{s=++d"".fa""} {print > s}' multi.fa",,
 "All features types in GFF3: grep -v '^#' annotations.gff3 | cut -s -f 3 | sort | uniq",,
