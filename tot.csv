@@ -8,4 +8,4 @@ tip, media, tags
 "FASTQ to FASTA: $ cat file.fastq | perl -e '$i=0;while(< >){if(/^\@/&&$i==0){s/^\@/\>/;print;}elsif($i==1){print;$i=-3}$i++;}' > file.fasta	",,BASH;Perl
 "Run your last command as root: sudo !!",,BASH
 "Learn how NOT to be a bioinformatician",http://www.scfbm.org/content/pdf/1751-0473-7-3.pdf,Bioinformatics
-"Counting N's in FASTA - using BioPython: fastaSequence.lower().count('n')",,
+"Counting N's in FASTA - using BioPython: fastaSequence.lower().count('n')",,Python
