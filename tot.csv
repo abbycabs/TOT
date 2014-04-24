@@ -10,3 +10,4 @@ tip, media, tags
 "Learn how NOT to be a bioinformatician",http://www.scfbm.org/content/pdf/1751-0473-7-3.pdf,Bioinformatics
 "Easy way to count 'N's in FASTA - using BioPython: fastaSequence.lower().count('n')",,Python
 "Don't let your bash scripts ignore failed commands, set -o errexit", ,BASH
+"In Perl 5.10, use ''say'' instead of ''print'' to avoid typing newlines." "print 'Hello World!\n' == say 'Hello World!'",,Perl
