@@ -13,3 +13,4 @@ tip, media, tags
 "In Perl 5.10, use ''say'' instead of ''print'' to avoid typing newlines. print 'Hello World!\n' == say 'Hello World!'",,Perl
 "Lose your terminal? Try this command: reset",,BASH
 "Perl for one-liners in a pipe. Python for everything else.",,Perl;Python
+"^foo^bar - run the last command, but replace the first instance of foo with bar",,BASH
