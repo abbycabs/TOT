@@ -14,4 +14,4 @@ tip, media, tags
 "Lose your terminal? Try this command: reset",,BASH
 "Perl for one-liners in a pipe. Python for everything else.",,Perl;Python
 "^foo^bar - run the last command, but replace the first instance of foo with bar",,BASH
-"#! - it's pronounced 'shebang'",,
+"#! - it's pronounced 'shebang'",https://en.wikipedia.org/wiki/Shebang_(Unix),
