@@ -22,3 +22,4 @@ tip, media, tags
 "A long time ago in a galaxy far, far away: telnet towel.blinkenlights.nl",,BASH
 "Split multi-FASTA file to indiv FASTA files: awk '/^>/{s=++d"".fa""} {print > s}' multi.fa",,
 "All features types in GFF3: grep -v '^#' annotations.gff3 | cut -s -f 3 | sort | uniq",,
+"BAM -> FASTQ: samtools view file.bam | awk 'BEGIN {FS=""\t""} {print ""@"" $1 ""\n"" $10 ""\n+\n"" $11}' > file.fq",,
