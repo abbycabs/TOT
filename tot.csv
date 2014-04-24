@@ -19,4 +19,4 @@ tip, media, tags
 "#! - it's pronounced 'shebang'",https://en.wikipedia.org/wiki/Shebang_(Unix),UNIX
 "Do you always type 'sl' instead of 'ls'? This will be fun: sudo apt-get install sl",,
 "A long time ago in a galaxy far, far away: telnet towel.blinkenlights.nl",,BASH
-"Split multi-FASTA file to indiv FASTA files: awk '/^>/{s=++d".fa"} {print > s}' multi.fa",,
+"Split multi-FASTA file to indiv FASTA files: awk '/^>/{s=++d\".fa\"} {print > s}' multi.fa",,
