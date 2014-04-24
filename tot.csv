@@ -1,7 +1,7 @@
 tip, media, tags
 :w ! sudo tee %' Have you ever opened a file in vim that you don't have permissions to edit?,,
 Be honest -- just not like #overlyhonestmethods,,
-Check out Task::Kensho for great Perl modules,,
+Check out Task::Kensho for great Perl modules,,Perl
 "brace expansion for backup ""cp /etc/httpd/conf/httpd.conf{,.bak}""",,
 Fetch FASTA sequences using identifier from a file. 'grep -A1 -f list mainfile > fastaofidsfromlist',,
 "go to previous directory ""cd -""",,
