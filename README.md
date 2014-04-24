@@ -1,6 +1,6 @@
 # tot
 
-FIXME
+Tweet your tips using the hashtag #BioinfoTips
 
 ## Prerequisites
 
