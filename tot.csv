@@ -20,3 +20,4 @@ tip, media, tags
 "Do you always type 'sl' instead of 'ls'? This will be fun: sudo apt-get install sl",,
 "A long time ago in a galaxy far, far away: telnet towel.blinkenlights.nl",,BASH
 "Split multi-FASTA file to indiv FASTA files: awk '/^>/{s=++d"".fa""} {print > s}' multi.fa",,
+"All features types in GFF3: grep -v '^#' annotations.gff3 | cut -s -f 3 | sort | uniq",,
