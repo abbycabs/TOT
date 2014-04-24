@@ -5,5 +5,5 @@ tip, media, tags
 "brace expansion for backup ""cp /etc/httpd/conf/httpd.conf{,.bak}""",,BASH
 "Fetch FASTA sequences using identifier from a file. 'grep -A1 -f list mainfile > fastaofidsfromlist'",,BASH
 "go to previous directory ""cd -""",,BASH
-"Convert FASTQ to FASTA: $ cat file_in.fastq | perl -e '$i=0;while(< >){if(/^\@/&&$i==0){s/^\@/\>/;print;}elsif($i==1){print;$i=-3}$i++;}' > file_out.fasta	",,BASH;Perl
+"FASTQ to FASTA: $ cat file.fastq | perl -e '$i=0;while(< >){if(/^\@/&&$i==0){s/^\@/\>/;print;}elsif($i==1){print;$i=-3}$i++;}' > file.fasta	",,BASH;Perl
 "Run your last command as root: sudo !!",,BASH
