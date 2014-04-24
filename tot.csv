@@ -5,7 +5,7 @@ tip, media, tags
 "brace expansion for backup ""cp /etc/httpd/conf/httpd.conf{,.bak}""",,BASH
 "Fetch FASTA sequences using identifier from a file. 'grep -A1 -f list mainfile > fastaofidsfromlist'",,BASH
 "go to previous directory ""cd -""",,BASH
-"FASTQ to FASTA: $ cat file.fastq | perl -e '$i=0;while(< >){if(/^\@/&&$i==0){s/^\@/\>/;print;}elsif($i==1){print;$i=-3}$i++;}' > file.fasta	",,BASH;Perl
+"FASTQ to FASTA: sed -n '1~4s/^@/>/p;2~4p' file.fq > file.fa	",,BASH
 "Run your last command as root: sudo !!",,BASH
 "Learn how NOT to be a bioinformatician",http://www.scfbm.org/content/pdf/1751-0473-7-3.pdf,Bioinformatics
 "Easy way to count 'N's in FASTA - using BioPython: fastaSequence.lower().count('n')",,Python
@@ -19,3 +19,6 @@ tip, media, tags
 "#! - it's pronounced 'shebang'",https://en.wikipedia.org/wiki/Shebang_(Unix),UNIX
 "Do you always type 'sl' instead of 'ls'? This will be fun: sudo apt-get install sl",,
 "split FASTQ file into 5 files to parallelize in the cluster" "awk 'NR%4==1{ f=(FILENAME)"."(++i%5); }{ print >> f }' <fastq>",,
+"A long time ago in a galaxy far, far away: telnet towel.blinkenlights.nl",,BASH
+"Split multi-FASTA file to indiv FASTA files: awk '/^>/{s=++d"".fa""} {print > s}' multi.fa",,
+"All features types in GFF3: grep -v '^#' annotations.gff3 | cut -s -f 3 | sort | uniq",,
