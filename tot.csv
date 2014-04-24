@@ -23,6 +23,6 @@ tip, media, tags
 "Split multi-FASTA file to indiv FASTA files: awk '/^>/{s=++d"".fa""} {print > s}' multi.fa",,
 "All features types in GFF3: grep -v '^#' annotations.gff3 | cut -s -f 3 | sort | uniq",,
 "BAM -> FASTQ: samtools view file.bam | awk 'BEGIN {FS=""\t""} {print ""@"" $1 ""\n"" $10 ""\n+\n"" $11}' > file.fq",,
-"To quickly look for all annotated SNPs in a gene or region, use the UCSC Table Browser", "http://www.openhelix.com/cgi/tutorialInfo.cgi?id=28",,SNPs annotations
+"To quickly look for all annotated SNPs in a gene or region, use the UCSC Table Browser", "http://www.openhelix.com/cgi/tutorialInfo.cgi?id=28",SNPs annotations
 "Ask before deleting files: alias rm=""rm -i""",,
 "Create Venn Diagrams from lists of items (e.g. SNPs) with Venny or BioVenn","http://bioinfogp.cnb.csic.es/tools/venny/index.html, http://www.cmbi.ru.nl/cdd/biovenn/",Visualization
