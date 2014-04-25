@@ -3,6 +3,7 @@
   :url "https://github.com/acabunoc/TOT"
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [clj-time "0.7.0"]
+                 [clj-http "0.9.1"]
                  [compojure "1.1.6"]
                  [Liberator "0.11.0"]]
   :plugins []
