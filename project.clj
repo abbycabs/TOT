@@ -11,6 +11,5 @@
                    :plugins [[lein-ring "0.8.10"]]}}
   :ring {:handler tot.handler/app
          :init tot.handler/init
-         :destroy tot.handler/destroy}
-  :main prohses.suhbmit.api.core)
+         :destroy tot.handler/destroy})
 
