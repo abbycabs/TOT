@@ -1,0 +1,17 @@
+A little Perl script that can pull most recent tweets from Twitter and add them to a tot file in the right format. Looks for "http" and puts that in the media column, looks for #hashtags and puts them in the tags column, attributes the text to any @users in the tweet as well as the tweet author, and uses the text of the tweet as the tip.
+
+Every time the script runs, it overwrites a hidden file in the cwd under .last_id, which is the max_tweet_id from the last run. It uses this file to get only the tweets that haven't been added before.
+
+These are the things I needed to install on my vanilla system to get it working:
+
+cpan App::cpanminus
+/Users/MTaschuk/perl5/bin/cpanm Net::Twitter::Lite::WithAPIv1_1
+export PERL5LIB=/Users/MTaschuk/perl5/lib/perl5
+/Users/MTaschuk/perl5/bin/cpanm LMP::UserAgent Mozilla::CA
+/Users/MTaschuk/perl5/bin/cpanm Net::OAuth
+
+Here's a sample command line that searches for any tweets tagged with #bioinfotips and appends it to tot.csv in the current folder:
+
+perl query_hashtag.pl --consumer_key=my_api_key --consumer_secret=my_api_secret --access_token=my_access_token --access_token_secret=my_secret_access_token --search=#bioinfotips --tot_file=tot.csv
+
+The four keys needed for authentication consumer_key, consumer_secret, access_token, and access_token_secret are created by making a Twitter app. Go to https://apps.twitter.com/ , make an App, go to API Keys, and click "Generate my access token". consumer_key=API key, consumer_secret=API secret, access_token=Access token, and access_token_secret=Access token secret.
