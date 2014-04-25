@@ -1,6 +1,10 @@
-# tot
+# Tips on the T {TV/Toilet/Twitter}
 
-Tweet your tips using the hashtag #BioinfoTips
+Collection of tips for the Ontario Insitute for Cancer Research Informatics and Bio-Computing staff. Includes an API to get the latest tip of the week. Tweet your tips using the hashtag #BioinfoTips
+
+## Add you tips!
+
+Add tips to the tot.csv file. Send a PR - we're always looking for more tips
 
 ## Prerequisites
 
